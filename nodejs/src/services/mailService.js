@@ -14,7 +14,7 @@ const notifyOrderPlaceSuccess = async (data) => {
   let newMinutes = date.getMinutes().toString().padStart(2, "0");
   let newResTime = `${newHours}:${newMinutes}`;
   return await transporter.sendMail({
-    from: '"VŨ THÙY LINH" <phuongnt.evnit@evn.com.vn>',
+    from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt.evnit@evn.com.vn>',
     to: `${data.email}`,
     subject: "RESERVATION CONFIRMATION",
     text: "Reservation Confirmation",
@@ -177,7 +177,7 @@ const notifyOrderPlaceSuccess = async (data) => {
 
 const notifyOrderCanceled = async (data) => {
   return await transporter.sendMail({
-    from: '"VŨ THÙY LINH" <phuongnt.evnit@evn.com.vn>',
+    from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt.evnit@evn.com.vn>',
     to: `${data.email}`,
     subject: "RESERVATION CANCELED",
     text: "Reservation Canceled",

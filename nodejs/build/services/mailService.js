@@ -32,7 +32,7 @@ var notifyOrderPlaceSuccess = /*#__PURE__*/function () {
           newResTime = "".concat(newHours, ":").concat(newMinutes);
           _context.next = 10;
           return _nodeMailer["default"].sendMail({
-            from: '"VŨ THÙY LINH" <phuongnt.evnit@evn.com.vn>',
+            from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt.evnit@evn.com.vn>',
             to: "".concat(data.email),
             subject: "RESERVATION CONFIRMATION",
             text: "Reservation Confirmation",
@@ -57,7 +57,7 @@ var notifyOrderCanceled = /*#__PURE__*/function () {
         case 0:
           _context2.next = 2;
           return _nodeMailer["default"].sendMail({
-            from: '"VŨ THÙY LINH" <phuongnt.evnit@evn.com.vn>',
+            from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt.evnit@evn.com.vn>',
             to: "".concat(data.email),
             subject: "RESERVATION CANCELED",
             text: "Reservation Canceled",
