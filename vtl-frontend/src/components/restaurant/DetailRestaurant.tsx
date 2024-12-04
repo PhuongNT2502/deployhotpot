@@ -283,7 +283,7 @@ const DetailRestaurant = () => {
             >
               Please wait for Hotpot Restaurant Lee Hotpot -{" "}
               {restaurant.address} to confirm shortly! Please keep in touch via
-              phone number 0366012039, email vuthuylinh23082002@gmail.com, and
+              phone number 0366012039, email phuongnt.evnit@evn.com.vn, and
               open the website to view the response results.
             </Typography>
           </DialogContentText>
