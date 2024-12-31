@@ -58,8 +58,8 @@ const Footer = () => {
       icon: <LocalPhoneRoundedIcon sx={{ color: "white" }} />,
     },
     {
-      title: "phuongnt.evnit@evn.com.vn",
-      href: "mailto:phuongnt.evnit@evn.com.vn",
+      title: "phuongnt2502@gmail.com",
+      href: "mailto:phuongnt2502@gmail.com",
       icon: <EmailIcon sx={{ color: "white" }} />,
     },
     {

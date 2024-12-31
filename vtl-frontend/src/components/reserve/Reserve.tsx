@@ -284,7 +284,7 @@ const ReserveComponent = () => {
                   ?.address
               }{" "}
               to confirm shortly! Please keep in touch via phone number
-              0366012039, email phuongnt.evnit@evn.com.vn, and open the
+              0377835515, email phuongnt2502@gmail.com, and open the
               website to view the response results.
             </Typography>
           </DialogContentText>
