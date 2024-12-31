@@ -13,8 +13,8 @@ module.exports = {
             return _context.abrupt("return", queryInterface.bulkInsert("Users", [{
               email: "admin@gmail.com",
               password: "123456",
-              firstName: "Linh",
-              lastName: "Vu",
+              firstName: "Phuong",
+              lastName: "Nguyen",
               address: "Hanoi",
               gender: 0,
               roleId: "R1",

@@ -15,7 +15,7 @@ module.exports = {
         {
           email: "admin@gmail.com",
           password: hashedPassword,
-          fullName: "Vu Linh",
+          fullName: "Nguyen Phuong",
           address: "Hanoi",
           roleId: "1",
           phoneNumber: "0123456789",

@@ -14,7 +14,7 @@ const notifyOrderPlaceSuccess = async (data) => {
   let newMinutes = date.getMinutes().toString().padStart(2, "0");
   let newResTime = `${newHours}:${newMinutes}`;
   return await transporter.sendMail({
-    from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt.evnit@evn.com.vn>',
+    from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt2502@gmail.com>',
     to: `${data.email}`,
     subject: "RESERVATION CONFIRMATION",
     text: "Reservation Confirmation",
@@ -158,7 +158,7 @@ const notifyOrderPlaceSuccess = async (data) => {
             Your table is booked till ${newResTime}. Tables are kept for 15 min after
             reservation time. For more information please call us on +441592261635
             or email
-            <a href="mailto:phuongnt.evnit@evn.com.vn">phuongnt.evnit@evn.com.vn</a>
+            <a href="mailto:phuongnt2502@gmail.com">phuongnt2502@gmail.com</a>
           </p>
           <p>
             Should your plans change, please let us know. We look forward to
@@ -177,7 +177,7 @@ const notifyOrderPlaceSuccess = async (data) => {
 
 const notifyOrderCanceled = async (data) => {
   return await transporter.sendMail({
-    from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt.evnit@evn.com.vn>',
+    from: '"NGUYỄN THỊ PHƯỢNG" <phuongnt2502@gmail.com>',
     to: `${data.email}`,
     subject: "RESERVATION CANCELED",
     text: "Reservation Canceled",
@@ -318,7 +318,7 @@ const notifyOrderCanceled = async (data) => {
           <p>
             We are sorry to see you go and hope to see you soon. Please feel free
           to visit
-            <a href="mailto:phuongnt.evnit@evn.com.vn">phuongnt.evnit@evn.com.vn</a>
+            <a href="mailto:phuongnt2502@gmail.com">phuongnt2502@gmail.com</a>
             and book a table at Lee Hotpot Restaurant for another date.
           </p>
 
