@@ -338,6 +338,7 @@ const OrderItemsChart = () => {
             <MenuItem value={2023}>2022</MenuItem>
             <MenuItem value={2023}>2023</MenuItem>
             <MenuItem value={2024}>2024</MenuItem>
+            <MenuItem value={2025}>2025</MenuItem>
           </Select>
         </Box>
         <Box sx={{ display: "flex", gap: 2 }}>
